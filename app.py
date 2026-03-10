@@ -99,14 +99,14 @@ if menu == "Upload Data":
     st.subheader("Download Excel Template")
     template_data = {
         "ProjectData": pd.DataFrame({
-            "Year": [1, 2, 3, 4, 5],
-            "Unit Sold": [0, 10, 20, 30, 40],
-            "Price Per Unit": [0, 100000, 100000, 100000, 100000],
-            "Construction Cost": [5000000, 2000000, 2000000, 2000000, 2000000]
+            "Project":["Project A","Project B","Project C"],
+            "Units Sold":[50,30,40],
+            "Price Per Unit":[250000,300000,280000],
+            "Construction Cost":[6000000,5000000,5500000]
         }),
         "LoanTerms": pd.DataFrame({
-            "Parameter": ["Project Cost", "Equity", "Loan Amount", "Interest Rate", "Tenure Years"],
-            "Value": [10000000, 5000000, 5000000, 8.0, 5]
+            "Parameter":["Interest Rate","Tenure Years","Loan To Cost"],
+            "Value":[8,5,0.7]
         })
     }
 
