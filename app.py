@@ -4,7 +4,7 @@ import plotly.express as px
 import io
 
 st.set_page_config(
-    page_title="AI Real Estate Underwriting",
+    page_title="Real Estate Underwriting",
     page_icon="🏗️",
     layout="wide"
 )
@@ -13,7 +13,7 @@ st.set_page_config(
 # HEADER
 # -------------------------------
 
-st.title("AI Real Estate Underwriting Platform")
+st.title("Real Estate Underwriting Platform")
 st.caption("Upload your project Excel and get instant financial risk analysis, stress testing, and AI insights")
 
 # -------------------------------
